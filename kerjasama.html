@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <fieldset>
+        <header>
+            <h3><a href="#">Home</a></h3>
+        </header>
+        <nav>
+            <h2><a href="file:///C:/Users/frans/OneDrive/Desktop/23.12.2899_FransiskusAlvino_SI03/index.html">Kerjasama</a></h2>
+        </nav>
+        <form action="file:///C:/Users/frans/OneDrive/Desktop/23.12.2899_FransiskusAlvino_SI03/index.html" method="POST">
+            <div class="project">
+                <h2>Formulir Penawaran Kerjasama</h2>
+            </div>
+            <fieldset>
+                <table>
+
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td><input type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td><textarea name="alamat" cols="50" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nowa">No.WA</label></td>
+                        <td><input type="text" name="nowa"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jeniskelamin">Jenis kelamin</label></td>
+                        <td>
+                            <input type="jk" name="jeniskelamin" value="l"> Laki-laki
+                            <input type="jk" name="jeniskelamin" value="p"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Bidang Kerjasama</label></td>
+                        <td>
+                            <input type="checkbox" name="BD1" value="multimedia"> Multimedia
+                            <input type="checkbox" name="BD2" value="pemrograman"> Pemrograman
+                            <input type="checkbox" name="BD3" value="fintech"> Fintech
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="foto">File Penawaran</label></td>
+                        <td><input type="file" name="foto" accept="image/*"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="TP">Tanggal Pelaksanaan</label></td>
+                        <td><input type="datetime-local" name="birthdaytime"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="domisili">Domisili</label></td>
+                        <td>
+                            <select name="domisili">
+                                <option value="pilih" selected>-Pilih Domisili-</option>
+                                <option value="jawa">Jawa Tengah</option>
+                                <option value="aceh">Aceh</option>
+                                <option value="sumbar">Sumatera Barat</option>
+                                <option value="ntt">NTT</option>
+                                <option value="kalbar">Kalimantan Barat</option>
+                                <option value="jogja">Yogyakarta</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="project p">
+                <input type="reset" value="Reset"> 
+                <input type="submit" value="Submit"> 
+            </div>
+        </form>
+        <footer>
+            <h3>Thank You</h3>
+        </footer>
+    </fieldset>
+</body>
+</html>

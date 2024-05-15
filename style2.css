@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    padding: 7px; 
+}
+header a {
+    color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+td {
+    padding: 10px;
+    border: 3px solid #ddd;
+  }
+nav {
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;   
+}
+.project {
+    text-align: center;
+    margin-top: 30px;
+}
+.project p {
+    text-align: center;
+        
+}
+footer {
+    background-color: #333;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+}
